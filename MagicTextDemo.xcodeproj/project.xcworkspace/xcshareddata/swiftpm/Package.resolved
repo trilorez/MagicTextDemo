@@ -1,0 +1,15 @@
+{
+  "originHash" : "0a24c92f525991e8b14a8dd483fd5462a028d05d656673349ea7436b46f4e074",
+  "pins" : [
+    {
+      "identity" : "magictext",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/trilorez/MagicText",
+      "state" : {
+        "revision" : "47e9aedcf351768295b00b165afd3fdd0c75e976",
+        "version" : "1.0.0"
+      }
+    }
+  ],
+  "version" : 3
+}

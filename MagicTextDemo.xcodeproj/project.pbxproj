@@ -1,0 +1,599 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		650244D42C62A3FA00E5F9FE /* MagicTextDemoApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 650244D32C62A3FA00E5F9FE /* MagicTextDemoApp.swift */; };
+		650244D62C62A3FA00E5F9FE /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 650244D52C62A3FA00E5F9FE /* ContentView.swift */; };
+		650244D82C62A3FB00E5F9FE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 650244D72C62A3FB00E5F9FE /* Assets.xcassets */; };
+		650244DB2C62A3FB00E5F9FE /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 650244DA2C62A3FB00E5F9FE /* Preview Assets.xcassets */; };
+		650244FF2C62A42900E5F9FE /* MagicText in Frameworks */ = {isa = PBXBuildFile; productRef = 650244FE2C62A42900E5F9FE /* MagicText */; };
+		65E8D9D22C62C1900031B575 /* MagicText in Frameworks */ = {isa = PBXBuildFile; productRef = 65E8D9D12C62C1900031B575 /* MagicText */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		650244E12C62A3FB00E5F9FE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 650244C82C62A3FA00E5F9FE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 650244CF2C62A3FA00E5F9FE;
+			remoteInfo = MagicTextDemo;
+		};
+		650244EB2C62A3FB00E5F9FE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 650244C82C62A3FA00E5F9FE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 650244CF2C62A3FA00E5F9FE;
+			remoteInfo = MagicTextDemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		650244D02C62A3FA00E5F9FE /* MagicTextDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MagicTextDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		650244D32C62A3FA00E5F9FE /* MagicTextDemoApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MagicTextDemoApp.swift; sourceTree = "<group>"; };
+		650244D52C62A3FA00E5F9FE /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		650244D72C62A3FB00E5F9FE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		650244DA2C62A3FB00E5F9FE /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		650244E02C62A3FB00E5F9FE /* MagicTextDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MagicTextDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		650244EA2C62A3FB00E5F9FE /* MagicTextDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MagicTextDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		650244CD2C62A3FA00E5F9FE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				650244FF2C62A42900E5F9FE /* MagicText in Frameworks */,
+				65E8D9D22C62C1900031B575 /* MagicText in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		650244DD2C62A3FB00E5F9FE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		650244E72C62A3FB00E5F9FE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		650244C72C62A3FA00E5F9FE = {
+			isa = PBXGroup;
+			children = (
+				650244D22C62A3FA00E5F9FE /* MagicTextDemo */,
+				650244D12C62A3FA00E5F9FE /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		650244D12C62A3FA00E5F9FE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				650244D02C62A3FA00E5F9FE /* MagicTextDemo.app */,
+				650244E02C62A3FB00E5F9FE /* MagicTextDemoTests.xctest */,
+				650244EA2C62A3FB00E5F9FE /* MagicTextDemoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		650244D22C62A3FA00E5F9FE /* MagicTextDemo */ = {
+			isa = PBXGroup;
+			children = (
+				650244D32C62A3FA00E5F9FE /* MagicTextDemoApp.swift */,
+				650244D52C62A3FA00E5F9FE /* ContentView.swift */,
+				650244D72C62A3FB00E5F9FE /* Assets.xcassets */,
+				650244D92C62A3FB00E5F9FE /* Preview Content */,
+			);
+			path = MagicTextDemo;
+			sourceTree = "<group>";
+		};
+		650244D92C62A3FB00E5F9FE /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				650244DA2C62A3FB00E5F9FE /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		650244CF2C62A3FA00E5F9FE /* MagicTextDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 650244F42C62A3FB00E5F9FE /* Build configuration list for PBXNativeTarget "MagicTextDemo" */;
+			buildPhases = (
+				650244CC2C62A3FA00E5F9FE /* Sources */,
+				650244CD2C62A3FA00E5F9FE /* Frameworks */,
+				650244CE2C62A3FA00E5F9FE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MagicTextDemo;
+			packageProductDependencies = (
+				650244FE2C62A42900E5F9FE /* MagicText */,
+				65E8D9D12C62C1900031B575 /* MagicText */,
+			);
+			productName = MagicTextDemo;
+			productReference = 650244D02C62A3FA00E5F9FE /* MagicTextDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		650244DF2C62A3FB00E5F9FE /* MagicTextDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 650244F72C62A3FB00E5F9FE /* Build configuration list for PBXNativeTarget "MagicTextDemoTests" */;
+			buildPhases = (
+				650244DC2C62A3FB00E5F9FE /* Sources */,
+				650244DD2C62A3FB00E5F9FE /* Frameworks */,
+				650244DE2C62A3FB00E5F9FE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				650244E22C62A3FB00E5F9FE /* PBXTargetDependency */,
+			);
+			name = MagicTextDemoTests;
+			productName = MagicTextDemoTests;
+			productReference = 650244E02C62A3FB00E5F9FE /* MagicTextDemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		650244E92C62A3FB00E5F9FE /* MagicTextDemoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 650244FA2C62A3FB00E5F9FE /* Build configuration list for PBXNativeTarget "MagicTextDemoUITests" */;
+			buildPhases = (
+				650244E62C62A3FB00E5F9FE /* Sources */,
+				650244E72C62A3FB00E5F9FE /* Frameworks */,
+				650244E82C62A3FB00E5F9FE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				650244EC2C62A3FB00E5F9FE /* PBXTargetDependency */,
+			);
+			name = MagicTextDemoUITests;
+			productName = MagicTextDemoUITests;
+			productReference = 650244EA2C62A3FB00E5F9FE /* MagicTextDemoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		650244C82C62A3FA00E5F9FE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1540;
+				LastUpgradeCheck = 1540;
+				TargetAttributes = {
+					650244CF2C62A3FA00E5F9FE = {
+						CreatedOnToolsVersion = 15.4;
+					};
+					650244DF2C62A3FB00E5F9FE = {
+						CreatedOnToolsVersion = 15.4;
+						TestTargetID = 650244CF2C62A3FA00E5F9FE;
+					};
+					650244E92C62A3FB00E5F9FE = {
+						CreatedOnToolsVersion = 15.4;
+						TestTargetID = 650244CF2C62A3FA00E5F9FE;
+					};
+				};
+			};
+			buildConfigurationList = 650244CB2C62A3FA00E5F9FE /* Build configuration list for PBXProject "MagicTextDemo" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 650244C72C62A3FA00E5F9FE;
+			packageReferences = (
+				65E8D9D02C62C1900031B575 /* XCRemoteSwiftPackageReference "MagicText" */,
+			);
+			productRefGroup = 650244D12C62A3FA00E5F9FE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				650244CF2C62A3FA00E5F9FE /* MagicTextDemo */,
+				650244DF2C62A3FB00E5F9FE /* MagicTextDemoTests */,
+				650244E92C62A3FB00E5F9FE /* MagicTextDemoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		650244CE2C62A3FA00E5F9FE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				650244DB2C62A3FB00E5F9FE /* Preview Assets.xcassets in Resources */,
+				650244D82C62A3FB00E5F9FE /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		650244DE2C62A3FB00E5F9FE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		650244E82C62A3FB00E5F9FE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		650244CC2C62A3FA00E5F9FE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				650244D62C62A3FA00E5F9FE /* ContentView.swift in Sources */,
+				650244D42C62A3FA00E5F9FE /* MagicTextDemoApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		650244DC2C62A3FB00E5F9FE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		650244E62C62A3FB00E5F9FE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		650244E22C62A3FB00E5F9FE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 650244CF2C62A3FA00E5F9FE /* MagicTextDemo */;
+			targetProxy = 650244E12C62A3FB00E5F9FE /* PBXContainerItemProxy */;
+		};
+		650244EC2C62A3FB00E5F9FE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 650244CF2C62A3FA00E5F9FE /* MagicTextDemo */;
+			targetProxy = 650244EB2C62A3FB00E5F9FE /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		650244F22C62A3FB00E5F9FE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		650244F32C62A3FB00E5F9FE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		650244F52C62A3FB00E5F9FE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"MagicTextDemo/Preview Content\"";
+				DEVELOPMENT_TEAM = K8MYP5637W;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.rez.MagicTextDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		650244F62C62A3FB00E5F9FE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"MagicTextDemo/Preview Content\"";
+				DEVELOPMENT_TEAM = K8MYP5637W;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.rez.MagicTextDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		650244F82C62A3FB00E5F9FE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = K8MYP5637W;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.rez.MagicTextDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MagicTextDemo.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/MagicTextDemo";
+			};
+			name = Debug;
+		};
+		650244F92C62A3FB00E5F9FE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = K8MYP5637W;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.rez.MagicTextDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MagicTextDemo.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/MagicTextDemo";
+			};
+			name = Release;
+		};
+		650244FB2C62A3FB00E5F9FE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = K8MYP5637W;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.rez.MagicTextDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = MagicTextDemo;
+			};
+			name = Debug;
+		};
+		650244FC2C62A3FB00E5F9FE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = K8MYP5637W;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.rez.MagicTextDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = MagicTextDemo;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		650244CB2C62A3FA00E5F9FE /* Build configuration list for PBXProject "MagicTextDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				650244F22C62A3FB00E5F9FE /* Debug */,
+				650244F32C62A3FB00E5F9FE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		650244F42C62A3FB00E5F9FE /* Build configuration list for PBXNativeTarget "MagicTextDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				650244F52C62A3FB00E5F9FE /* Debug */,
+				650244F62C62A3FB00E5F9FE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		650244F72C62A3FB00E5F9FE /* Build configuration list for PBXNativeTarget "MagicTextDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				650244F82C62A3FB00E5F9FE /* Debug */,
+				650244F92C62A3FB00E5F9FE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		650244FA2C62A3FB00E5F9FE /* Build configuration list for PBXNativeTarget "MagicTextDemoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				650244FB2C62A3FB00E5F9FE /* Debug */,
+				650244FC2C62A3FB00E5F9FE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		65E8D9D02C62C1900031B575 /* XCRemoteSwiftPackageReference "MagicText" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/trilorez/MagicText";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		650244FE2C62A42900E5F9FE /* MagicText */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = MagicText;
+		};
+		65E8D9D12C62C1900031B575 /* MagicText */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 65E8D9D02C62C1900031B575 /* XCRemoteSwiftPackageReference "MagicText" */;
+			productName = MagicText;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = 650244C82C62A3FA00E5F9FE /* Project object */;
+}
